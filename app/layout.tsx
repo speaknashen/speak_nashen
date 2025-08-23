@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'Speaknashen' }],
   viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
+  icons: {
+    icon: "images/logo-small.png",
+  },
 };
 
 export default function RootLayout({

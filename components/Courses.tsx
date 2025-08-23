@@ -49,10 +49,10 @@ const Courses = () => {
   ];
 
   const highlights = [
-    { icon: Clock, text: '1 hour/day', label: 'Daily Class Time' },
-    { icon: Calendar, text: '2 months', label: 'Per Level Duration' },
-    { icon: BookOpen, text: 'PDF Materials', label: 'Study Resources' },
-    { icon: Users, text: 'Live Sessions', label: 'Interactive Classes' }
+    { icon: Clock, text: 'Flexible Timing', label: 'Fits Your Schedule' },
+    { icon: Calendar, text: 'Experienced Faculty', label: 'Best in the Country' },
+    { icon: BookOpen, text: 'Study Materials', label: 'Textbook • Workbook • Vocabulary' },
+    { icon: Users, text: 'Interactive Live Sessions', label: 'Effective & Activity-Based' }
   ];
 
   return (
@@ -80,7 +80,7 @@ const Courses = () => {
               <div className="w-12 h-12 bg-[#d52427] rounded-full flex items-center justify-center mx-auto mb-4">
                 <highlight.icon className="text-white" size={24} />
               </div>
-              <div className="text-2xl font-bold text-[#d52427] mb-2">{highlight.text}</div>
+              <div className="text-[20px] font-bold text-[#d52427] mb-2">{highlight.text}</div>
               <div className="text-gray-600 text-sm">{highlight.label}</div>
             </div>
           ))}

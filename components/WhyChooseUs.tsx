@@ -116,7 +116,7 @@ const WhyChooseUs = () => {
             <div className="space-y-4">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start gap-4 group">
-                  <CheckCircle className="text-[#d52427] mt-1 group-hover:scale-110 transition-transform duration-200" size={20} />
+                  <CheckCircle className="text-[#d52427] mt-1 group-hover:scale-110 transition-transform duration-200 w-[20px] h-[20px]" size={20} />
                   <span className="text-gray-600 group-hover:text-gray-800 transition-colors">{benefit}</span>
                 </div>
               ))}
