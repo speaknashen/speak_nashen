@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   robots: 'index, follow',
   icons: {
     icon: '/favicon.png',
+    shortcut: '/favicon.png', // For older browsers
   },
 };
 
