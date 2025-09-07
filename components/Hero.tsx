@@ -78,6 +78,7 @@ const Hero = () => {
                         alt="Modern Business Team" 
                         className="w-4/5 h-4/5 object-cover rounded-2xl"
                       />
+                        <div className="absolute bottom-0 left-0 right-0 h-[15rem] bg-[linear-gradient(to_top,#fdfdfd_24%,transparent_66%)]"></div>
                     </div>
                   </div>
                 </div>
