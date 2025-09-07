@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            {/* <img className='w-[150px]' src={'images/logo.png'} alt='logo'/> */}
+            <p className="text-lg font-semibold mb-6">SPEAK NASHEN</p>
             <p className="text-gray-300 mb-6 leading-relaxed">
               A Foundation for Forever. Transform your career with quality French and German 
               language training focused on global certifications.

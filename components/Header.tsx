@@ -46,14 +46,14 @@ const Header = ({ activeSection }: HeaderProps) => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection('home')}
-              className="text-2xl font-bold w-[80px] text-[#d52427] hover:text-[#b91c1f] transition-colors"
+              className="text-2xl font-bold w-[80px] text-[#d52427] hover:text-[#b91c1f] transition-colors py-[10px]"
             >
-             <img src={'images/logo.png'} alt='logo'/>
+             <img src={'images/logo.png'} alt='logo' className='w-[65px]'/>
             </button>
           </div>
 
