@@ -125,7 +125,7 @@ const WhyChooseUs = () => {
 
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/5212329/pexels-photo-5212329.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src=src={'images/whyChoose.png'}
               alt="Online Learning"
               className="rounded-2xl shadow-2xl w-full"
             />
