@@ -81,7 +81,7 @@ const About = () => {
             style={{ transitionDelay: '200ms' }} // Staggered delay for image
           >
             <img
-              src="https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src={'images/about.png'}
               alt="Language Learning"
               className="rounded-2xl shadow-2xl w-full"
             />
