@@ -57,7 +57,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-smooth ${poppins.variable}`}>
       <head>
-        {/* 🔹 Structured data for logo */}
+      <meta name="google-site-verification" content="X6vIHU2cHcbIa4fb1t_-fiWSBMMEYoIcFzh7pAiQb9Q" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
