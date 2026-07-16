@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -31,35 +31,47 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className={`transform transition-all duration-1000 ${isVisible   ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <div className="space-y-6">
-  
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="block "> A Foundation For{' '}</span>
-                <span className="block gradient-text">Forever</span>
-              </h1>
+            <div className="space-y-8">
+              <div>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
+                  <span className="block">Build Skills That Lead to</span>
+                  <span className="block gradient-text">Real Careers</span>
+                </h1>
+                <p className="text-lg md:text-xl text-gray-600 font-medium">
+                  Languages • AI • Digital Skills • Sales & Communication
+                </p>
+              </div>
               
+              {/* <p className="text-md md:text-lg text-gray-700 max-w-2xl leading-relaxed">
+                Master practical skills that employers value. Whether it's languages, AI tools, or communication expertise, we prepare you for real-world performance and career outcomes.
+              </p> */}
               
-              <p className="text-md md:text-lg text-gray-600 max-w-2xl leading-relaxed">
-                Transform your future with internationally recognized certifications. 
-              Whether you're preparing for TEF, TCF, DELF, DALF, Goethe, TELC, or other exams, 
-              we're here to guide you every step of the way.
-              </p>
+              {/* Quick Stats */}
+              {/* <div className="flex flex-wrap gap-4 py-4">
+                <div className="flex items-center gap-2 bg-red-50 px-4 py-3 rounded-full border border-[var(--primary)]/20">
+                  <span className="text-2xl">🔥</span>
+                  <span className="font-semibold text-gray-800">Strategy Session</span>
+                </div>
+                <div className="flex items-center gap-2 bg-blue-50 px-4 py-3 rounded-full border border-blue-200">
+                  <span className="text-2xl">📞</span>
+                  <span className="font-semibold text-gray-800">Talk to Expert</span>
+                </div>
+              </div> */}
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <button 
-                  onClick={() => scrollToSection('services')}
+                  onClick={() => scrollToSection('contact')}
                   className="group flex items-center justify-center px-8 py-4 bg-[var(--primary)] text-white rounded-full font-semibold hover:bg-[var(--primary)]/90 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
-                  Get Started
+                  Book a Strategy Session
                   <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform duration-300" />
                 </button>
                 
                 <button 
-                  onClick={() => scrollToSection('about')}
+                  onClick={() => window.open('https://wa.me/919876543210?text=Hi, I want to talk to an expert', '_blank')}
                   className="group flex items-center justify-center px-8 py-4 border-2 border-[var(--primary)] text-[var(--primary)] rounded-full font-semibold hover:bg-[var(--primary)] hover:text-white transition-all duration-300"
                 >
-                  <Play size={20} className="mr-2" />
-                  Learn More
+                  Talk to an Expert
                 </button>
               </div>
             </div>

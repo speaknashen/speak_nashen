@@ -27,10 +27,18 @@ const Footer = () => {
     'Individual & Group Classes'
   ];
 
+  const digitalMarketing = [
+    'SEO Mastery',
+    'Social Media Marketing',
+    'Email Campaigns',
+    'Analytics & Reporting',
+    'Content Marketing'
+  ];
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Brand */}
           <div>
             <p className="text-lg font-semibold mb-6">SPEAK NASHEN</p>
@@ -80,6 +88,18 @@ const Footer = () => {
               {languages.map((language, index) => (
                 <li key={index} className="text-gray-300 text-sm">
                   {language}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Digital Marketing */}
+          <div>
+            <h4 className="text-lg font-semibold mb-6">Digital Marketing</h4>
+            <ul className="space-y-3">
+              {digitalMarketing.map((skill, index) => (
+                <li key={index} className="text-gray-300 text-sm">
+                  {skill}
                 </li>
               ))}
             </ul>

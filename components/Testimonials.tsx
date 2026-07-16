@@ -32,7 +32,8 @@ const Testimonials = () => {
       course: 'French TEF',
       rating: 5,
       text: 'I never thought learning French could be this engaging! Speaknashen changed my view on online education. The interactive sessions and personalized attention helped me clear my TEF exam with confidence.',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150'
+      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150',
+      source: 'Student'
     },
     {
       name: 'Arjun Nair',
@@ -40,7 +41,8 @@ const Testimonials = () => {
       course: 'German TELC',
       rating: 5,
       text: 'The best part was the class energy and the comprehensive materials. The recorded sessions were a lifesaver for revision. I cleared my TELC exam easily and now I\'m pursuing my masters in Germany!',
-      image: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=150'
+      image: 'https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=150',
+      source: 'Student'
     },
     {
       name: 'Sarah Al-Zahra',
@@ -48,7 +50,8 @@ const Testimonials = () => {
       course: 'French DELF',
       rating: 5,
       text: 'Exceptional teaching quality and flexible timing that worked perfectly with my schedule. The instructors are patient and knowledgeable. Highly recommend for anyone serious about language learning.',
-      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150'
+      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150',
+      source: 'Student'
     },
     {
       name: 'Michael Chen',
@@ -56,7 +59,8 @@ const Testimonials = () => {
       course: 'German Goethe',
       rating: 5,
       text: 'The strategic approach to exam preparation is outstanding. Every lesson was purposeful and aligned with the Goethe exam format. The soft-copy materials are comprehensive and easy to access.',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150'
+      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
+      source: 'Student'
     },
     {
       name: 'Fatima Hassan',
@@ -64,7 +68,35 @@ const Testimonials = () => {
       course: 'French TCF',
       rating: 5,
       text: 'What sets Speaknashen apart is their commitment to student success. The classes are motivating, not boring lectures. I improved my French significantly and achieved my target score in TCF.',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150'
+      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
+      source: 'Student'
+    },
+    {
+      name: 'Rajesh Kumar',
+      location: 'Bangalore, India',
+      course: 'Digital Marketing',
+      rating: 5,
+      text: 'Fantastic platform for upskilling in digital marketing. The instructors are industry experts and the curriculum is up-to-date with current trends. Great ROI on investment!',
+      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150',
+      source: 'Google Review'
+    },
+    {
+      name: 'Neha Patel',
+      location: 'Mumbai, India',
+      course: 'French & Digital Marketing',
+      rating: 5,
+      text: 'Amazing experience learning both French and digital marketing together. The holistic approach to career development is commendable. Highly satisfied with the results!',
+      image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150',
+      source: 'Google Review'
+    },
+    {
+      name: 'Vikram Singh',
+      location: 'Delhi, India',
+      course: 'German & Communication Skills',
+      rating: 5,
+      text: 'Professional training with personalized attention. The instructors really care about student progress. I\'ve seen significant improvement in my language proficiency and confidence!',
+      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
+      source: 'Google Review'
     }
   ];
 

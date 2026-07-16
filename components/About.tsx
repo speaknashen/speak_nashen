@@ -111,7 +111,7 @@ const About = () => {
               style={{ transitionDelay: '600ms' }} // Staggered delay for languages box
             >
               <h4 className="font-semibold text-gray-900 mb-4">Languages & Certifications:</h4>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm mb-6">
                 <div>
                   <strong className="text-[#d52427]">🇫🇷 French:</strong>
                   <div className="text-gray-600">TEF, TCF, DELF, DALF, TELF</div>
@@ -120,6 +120,32 @@ const About = () => {
                   <strong className="text-[#d52427]">🇩🇪 German:</strong>
                   <div className="text-gray-600">Goethe, TELC, ÖSD, ECL</div>
                 </div>
+              </div>
+              
+              <div className="border-t border-gray-300 pt-4">
+                <h5 className="font-semibold text-gray-900 mb-3">Digital Marketing Skills:</h5>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#d52427] font-bold mt-1">•</span>
+                    <span><strong>SEO Mastery</strong> — Search engine optimization & keyword strategies</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#d52427] font-bold mt-1">•</span>
+                    <span><strong>Social Media Marketing</strong> — Content strategy & engagement optimization</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#d52427] font-bold mt-1">•</span>
+                    <span><strong>Email Campaigns</strong> — Conversion-focused email marketing strategies</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#d52427] font-bold mt-1">•</span>
+                    <span><strong>Analytics & Reporting</strong> — Google Analytics & data-driven decisions</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#d52427] font-bold mt-1">•</span>
+                    <span><strong>Content Marketing</strong> — Blog writing, copywriting & brand storytelling</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

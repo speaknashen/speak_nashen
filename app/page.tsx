@@ -3,11 +3,14 @@
 import { useEffect, useState } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import About from '@/components/About';
-import Courses from '@/components/Courses';
-import WhyChooseUs from '@/components/WhyChooseUs';
-import Testimonials from '@/components/Testimonials';
-import FAQ from '@/components/FAQ';
+import Positioning from '@/components/Positioning';
+import Offerings from '@/components/Offerings';
+import WhyUs from '@/components/WhyUs';
+import PlacementSupport from '@/components/PlacementSupport';
+import PlacedStudents from '@/components/PlacedStudents';
+import StudentImpact from '@/components/StudentImpact';
+import VisionMissionPhilosophy from '@/components/VisionMissionPhilosophy';
+import FinalCTA from '@/components/FinalCTA';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
@@ -17,7 +20,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'courses', 'why-choose-us', 'testimonials', 'faq', 'contact'];
+      const sections = ['home', 'positioning', 'offerings', 'why-us', 'placement-support', 'placed-students', 'student-impact', 'vision-mission-philosophy', 'final-cta', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -41,11 +44,14 @@ export default function Home() {
       <Header activeSection={activeSection} />
       <main>
         <Hero />
-        <About />
-        <Courses />
-        <WhyChooseUs />
-        {/* <Testimonials /> */}
-        <FAQ />
+        <Positioning />
+        <Offerings />
+        <WhyUs />
+        <PlacementSupport />
+        {/* <PlacedStudents /> */}
+        <StudentImpact />
+        <VisionMissionPhilosophy />
+        <FinalCTA />
         <Contact />
       </main>
       <Footer />
