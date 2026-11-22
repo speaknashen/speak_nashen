@@ -62,10 +62,10 @@ const Header = ({ activeSection }: HeaderProps) => {
           <div className="flex-shrink-0 flex items-center">
             <button
               onClick={() => scrollToSection('home')}
-              className="hover:opacity-80 transition-opacity py-2"
+              className="hover:opacity-80 transition-opacity py-1 flex items-center"
               aria-label="Home"
             >
-              <img src="images/logo.png" alt="SpeakNashen Logo" className="h-16 w-auto" />
+              <img src="/images/logo.png" alt="SpeakNashen Logo" className="h-12 sm:h-14 w-auto object-contain" />
             </button>
           </div>
 
